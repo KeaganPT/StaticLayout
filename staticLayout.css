@@ -1,0 +1,175 @@
+html{
+    background-image: url(/staticLayout2/staticLayoutAssets/huluHomePageImg.jpg);
+    color: white;
+    font-family: 'Graphik',  Helvetica,Arial, sans-serif ;
+    width:100%;
+    padding: 0px;
+}
+
+.page{
+    width:100%
+}
+/* Login Button*/
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginButton {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 23px 0 17px;
+    margin: 4px 0px;
+    color: white;
+    margin-right:20px;
+    letter-spacing: 1px;
+}
+
+
+/*front page info*/
+
+.freeTrialWrap{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+}
+
+.freeMonthText{
+    font-size: 13px;
+    color: #2DBD9D;
+    padding: 0px 0px 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0px 216.2px;
+    padding: 0px 0px 17px;
+        
+    
+}
+
+.centerThousandShows{
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 16px, 216px, 0px;
+}
+
+.huluLogo{
+    height: 89.33px;
+    width: 268px;
+    margin: 10px;
+}
+
+.availableAddOns{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 216px 0;
+}
+
+.freeTrialButtonDiv{
+    margin: 25.6px 216px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.freeTrialButton{
+    border: none;
+    border-radius: 4px;
+    height: 56px;
+    min-width: 136px;
+    padding: 0 32px;
+    font-size: 14px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.tinyText{
+    font-size: 10px;
+    margin: 16px 283px 0px;
+    opacity: 0.6;
+    width: 536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Middle section*/
+
+.bundleDiv{
+    position: relative;
+    width: 93.7%;
+    padding: 25px 40px ;
+    background-color:rgb(14,58,68);
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*left midsection*/
+.brandImgs{
+    width: 275px;
+    height: 61px;
+}
+
+/*Mid Midsection*/
+.details{
+    text-align: left;
+    width: 600px;
+    margin-left: 50px;
+}
+.eyebrow{
+    padding: 0 0 8px;
+    font-size: 12px;
+    color: #2DBD9D;
+}
+
+.eye{
+    height:24px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nose{
+    color: rgb(151,177,184);
+    padding-top: 5px;
+    height: 29px;
+    font-size: 14px;
+    
+}
+
+/*Right midsection*/
+.getBundleButtDiv{
+    text-align: center;
+    margin-left: 0px;
+    
+    align-self: flex-end;
+}
+
+.BundleButt{
+    padding-left: 32px;
+    padding-right: 32px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.termsApply{
+    color: rgb(151,177,184);
+    font-size: 10px;
+}
+
+.huluShowDisplay{
+    width: 100%;
+}
