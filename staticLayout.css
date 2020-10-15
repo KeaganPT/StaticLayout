@@ -1,7 +1,7 @@
 html{
     background-image: url("staticLayoutAssets/huluHomePageImg.jpg");
     color: white;
-    font-family: 'Graphik',  Helvetica,Arial, sans-serif ;
+    font-family: 'Graphik',  Helvetica, Arial, sans-serif ;
     width:100%;
     padding: 0px;
 }
@@ -34,6 +34,9 @@ nav{
     letter-spacing: 1px;
 }
 
+.loginButton:hover{
+    opacity: 80%;
+}
 
 /*front page info*/
 
@@ -93,6 +96,10 @@ nav{
     font-size: 14px;
     font-weight: 600px;
     letter-spacing: 1px;
+}
+
+.freeTrialButton:hover{
+    opacity: 80%;
 }
 
 .tinyText{
@@ -174,6 +181,7 @@ nav{
     color: rgb(151,177,184);
     font-size: 10px;
 }
+
 
 .huluShowDisplay{
     width: 100%;
